@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

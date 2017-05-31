@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Surf Connect</string>
+    <string name="login_email_label">Login with Email</string>
+    <string name="login_phone_label">Login with Phone Number</string>
+    <string name="account">Account</string>
+    <string name="id_label">Account ID</string>
+    <string name="phone_label">Phone Number</string>
+    <string name="email_label">Email</string>
+    <string name="logout_label">Log Out</string>
+    <string name="FACEBOOK_APP_ID">1944526392493129</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">8d83ac6f1c3c56e73010fafbb4080dbf</string>
+</resources>
