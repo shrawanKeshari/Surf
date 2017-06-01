@@ -3770,6 +3770,8 @@ containing a value of this type.
         public static final int ic_launcher_round=0x7f030001;
     }
     public static final class string {
+        public static final int ACCOUNT_KIT_CLIENT_TOKEN=0x7f070066;
+        public static final int FACEBOOK_APP_ID=0x7f070067;
         public static final int abc_action_bar_home_description=0x7f070000;
         public static final int abc_action_bar_home_description_format=0x7f070001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f070002;
@@ -3780,18 +3782,18 @@ containing a value of this type.
         public static final int abc_activitychooserview_choose_application=0x7f070007;
         public static final int abc_capital_off=0x7f070008;
         public static final int abc_capital_on=0x7f070009;
-        public static final int abc_font_family_body_1_material=0x7f070066;
-        public static final int abc_font_family_body_2_material=0x7f070067;
-        public static final int abc_font_family_button_material=0x7f070068;
-        public static final int abc_font_family_caption_material=0x7f070069;
-        public static final int abc_font_family_display_1_material=0x7f07006a;
-        public static final int abc_font_family_display_2_material=0x7f07006b;
-        public static final int abc_font_family_display_3_material=0x7f07006c;
-        public static final int abc_font_family_display_4_material=0x7f07006d;
-        public static final int abc_font_family_headline_material=0x7f07006e;
-        public static final int abc_font_family_menu_material=0x7f07006f;
-        public static final int abc_font_family_subhead_material=0x7f070070;
-        public static final int abc_font_family_title_material=0x7f070071;
+        public static final int abc_font_family_body_1_material=0x7f070068;
+        public static final int abc_font_family_body_2_material=0x7f070069;
+        public static final int abc_font_family_button_material=0x7f07006a;
+        public static final int abc_font_family_caption_material=0x7f07006b;
+        public static final int abc_font_family_display_1_material=0x7f07006c;
+        public static final int abc_font_family_display_2_material=0x7f07006d;
+        public static final int abc_font_family_display_3_material=0x7f07006e;
+        public static final int abc_font_family_display_4_material=0x7f07006f;
+        public static final int abc_font_family_headline_material=0x7f070070;
+        public static final int abc_font_family_menu_material=0x7f070071;
+        public static final int abc_font_family_subhead_material=0x7f070072;
+        public static final int abc_font_family_title_material=0x7f070073;
         public static final int abc_search_hint=0x7f07000a;
         public static final int abc_searchview_description_clear=0x7f07000b;
         public static final int abc_searchview_description_query=0x7f07000c;
@@ -3801,11 +3803,11 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f070010;
         public static final int abc_shareactionprovider_share_with_application=0x7f070011;
         public static final int abc_toolbar_collapse_description=0x7f070012;
-        public static final int account=0x7f070072;
-        public static final int app_name=0x7f070073;
-        public static final int appbar_scrolling_view_behavior=0x7f070074;
-        public static final int bottom_sheet_behavior=0x7f070075;
-        public static final int character_counter_pattern=0x7f070076;
+        public static final int account=0x7f070074;
+        public static final int app_name=0x7f070075;
+        public static final int appbar_scrolling_view_behavior=0x7f070076;
+        public static final int bottom_sheet_behavior=0x7f070077;
+        public static final int character_counter_pattern=0x7f070078;
         public static final int com_accountkit_account_verified=0x7f070013;
         public static final int com_accountkit_button_begin=0x7f070014;
         public static final int com_accountkit_button_cancel=0x7f070015;
@@ -3886,13 +3888,13 @@ containing a value of this type.
         public static final int com_facebook_smart_login_confirmation_continue_as=0x7f070065;
         public static final int com_facebook_smart_login_confirmation_title=0x7f07005f;
         public static final int com_facebook_tooltip_default=0x7f070060;
-        public static final int email_label=0x7f070077;
-        public static final int id_label=0x7f070078;
-        public static final int login_email_label=0x7f070079;
-        public static final int login_phone_label=0x7f07007a;
-        public static final int logout_label=0x7f07007b;
+        public static final int email_label=0x7f070079;
+        public static final int id_label=0x7f07007a;
+        public static final int login_email_label=0x7f07007b;
+        public static final int login_phone_label=0x7f07007c;
+        public static final int logout_label=0x7f07007d;
         public static final int messenger_send_button_text=0x7f070061;
-        public static final int phone_label=0x7f07007c;
+        public static final int phone_label=0x7f07007e;
         public static final int search_menu_title=0x7f070062;
         public static final int status_bar_notification_info_overflow=0x7f070063;
     }
