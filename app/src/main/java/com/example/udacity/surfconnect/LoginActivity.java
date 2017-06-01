@@ -5,6 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.facebook.accountkit.AccessToken;
+import com.facebook.accountkit.AccountKit;
 import com.facebook.accountkit.ui.AccountKitActivity;
 import com.facebook.accountkit.ui.AccountKitConfiguration;
 import com.facebook.accountkit.ui.LoginType;
@@ -18,6 +20,15 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         FontHelper.setCustomTypeface(findViewById(R.id.view_root));
+
+        //check for an existing access token. It is accessible when user logged in. If user is
+        // logged in accessToken will not be null.
+        AccessToken accessToken = AccountKit.getCurrentAccessToken();
+        if(accessToken != null){
+            //if previously logged in, proceed to the account activity
+            //if null we will continue with login flow
+            launchAccountActivity();
+        }
     }
 
     //This function will implement the token request
