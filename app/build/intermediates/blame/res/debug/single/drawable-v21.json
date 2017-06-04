@@ -1,22 +1,22 @@
 [
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-v21/com_accountkit_input_cursor.xml",
-        "source": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/drawable-v21/com_accountkit_input_cursor.xml"
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/drawable-v21/com_accountkit_input_cursor.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
-        "source": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
-        "source": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/drawable-v21/notification_action_background.xml"
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/notification_action_background.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
-        "source": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/drawable-v21/abc_edit_text_material.xml"
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
-        "source": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/drawable-v21/abc_btn_colored_material.xml"
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-v21/abc_btn_colored_material.xml"
     }
 ]

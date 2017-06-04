@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-in/values-in.xml",
+        "outputFile": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/values-in/values-in.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 9006
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -32,7 +32,7 @@
                     "endOffset": 9116
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 9224
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -70,7 +70,7 @@
                     "endOffset": 9347
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -89,7 +89,7 @@
                     "endOffset": 9449
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -108,7 +108,7 @@
                     "endOffset": 9554
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -127,7 +127,7 @@
                     "endOffset": 9641
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -146,7 +146,7 @@
                     "endOffset": 9745
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -165,7 +165,7 @@
                     "endOffset": 9861
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -184,7 +184,7 @@
                     "endOffset": 9943
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -203,7 +203,7 @@
                     "endOffset": 10022
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 10108
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 10211
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 10320
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 10421
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -298,7 +298,7 @@
                     "endOffset": 10525
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -317,7 +317,7 @@
                     "endOffset": 10633
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -336,7 +336,7 @@
                     "endOffset": 10741
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -355,7 +355,7 @@
                     "endOffset": 10864
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -374,7 +374,7 @@
                     "endOffset": 10963
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -393,7 +393,7 @@
                     "endOffset": 11042
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 239,
                         "startColumn": 4,
@@ -412,7 +412,7 @@
                     "endOffset": 11104
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 240,
                         "startColumn": 4,
@@ -431,7 +431,7 @@
                     "endOffset": 11170
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -450,7 +450,7 @@
                     "endOffset": 11239
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 242,
                         "startColumn": 4,
@@ -469,7 +469,7 @@
                     "endOffset": 11308
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 243,
                         "startColumn": 4,
@@ -488,7 +488,7 @@
                     "endOffset": 11371
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 244,
                         "startColumn": 4,
@@ -507,7 +507,7 @@
                     "endOffset": 11434
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 245,
                         "startColumn": 4,
@@ -526,7 +526,7 @@
                     "endOffset": 11500
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 246,
                         "startColumn": 4,
@@ -545,7 +545,7 @@
                     "endOffset": 11556
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 247,
                         "startColumn": 4,
@@ -564,7 +564,7 @@
                     "endOffset": 11653
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 248,
                         "startColumn": 4,
@@ -583,7 +583,7 @@
                     "endOffset": 11735
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 249,
                         "startColumn": 4,
@@ -602,7 +602,7 @@
                     "endOffset": 11820
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 250,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 11935
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 251,
                         "startColumn": 4,
@@ -640,7 +640,7 @@
                     "endOffset": 12078
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 252,
                         "startColumn": 4,
@@ -659,7 +659,7 @@
                     "endOffset": 12170
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 253,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 12292
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 254,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 12354
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 255,
                         "startColumn": 4,
@@ -716,7 +716,7 @@
                     "endOffset": 12425
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 256,
                         "startColumn": 4,
@@ -735,7 +735,7 @@
                     "endOffset": 12489
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 257,
                         "startColumn": 4,
@@ -754,7 +754,7 @@
                     "endOffset": 12560
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 258,
                         "startColumn": 4,
@@ -773,7 +773,7 @@
                     "endOffset": 12651
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 259,
                         "startColumn": 4,
@@ -793,7 +793,7 @@
                     "endOffset": 12894
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 260,
                         "startColumn": 4,
@@ -814,7 +814,7 @@
                     "endOffset": 13213
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 263,
                         "startColumn": 4,
@@ -835,7 +835,7 @@
                     "endOffset": 13591
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 266,
                         "startColumn": 4,
@@ -856,7 +856,7 @@
                     "endOffset": 14067
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 269,
                         "startColumn": 4,
@@ -877,7 +877,7 @@
                     "endOffset": 14484
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 272,
                         "startColumn": 4,
@@ -898,7 +898,7 @@
                     "endOffset": 14825
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 275,
                         "startColumn": 4,
@@ -918,7 +918,7 @@
                     "endOffset": 14919
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 278,
                         "startColumn": 4,
@@ -937,7 +937,7 @@
                     "endOffset": 15005
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 279,
                         "startColumn": 4,
@@ -956,7 +956,7 @@
                     "endOffset": 15098
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 280,
                         "startColumn": 4,
@@ -975,7 +975,7 @@
                     "endOffset": 15180
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 281,
                         "startColumn": 4,
@@ -994,7 +994,7 @@
                     "endOffset": 15269
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 282,
                         "startColumn": 4,
@@ -1014,7 +1014,7 @@
                     "endOffset": 15592
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 283,
                         "startColumn": 4,
@@ -1034,7 +1034,7 @@
                     "endOffset": 15680
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 286,
                         "startColumn": 4,
@@ -1053,7 +1053,7 @@
                     "endOffset": 15760
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 287,
                         "startColumn": 4,
@@ -1072,7 +1072,7 @@
                     "endOffset": 15867
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 288,
                         "startColumn": 4,
@@ -1091,7 +1091,7 @@
                     "endOffset": 15973
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 289,
                         "startColumn": 4,
@@ -1110,7 +1110,7 @@
                     "endOffset": 16073
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 290,
                         "startColumn": 4,
@@ -1129,7 +1129,7 @@
                     "endOffset": 16175
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 291,
                         "startColumn": 4,
@@ -1148,7 +1148,7 @@
                     "endOffset": 16236
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 292,
                         "startColumn": 4,
@@ -1167,7 +1167,7 @@
                     "endOffset": 16336
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 293,
                         "startColumn": 4,
@@ -1186,7 +1186,7 @@
                     "endOffset": 16437
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 294,
                         "startColumn": 4,
@@ -1205,7 +1205,7 @@
                     "endOffset": 16523
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 295,
                         "startColumn": 4,
@@ -1224,7 +1224,7 @@
                     "endOffset": 16619
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 296,
                         "startColumn": 4,
@@ -1244,7 +1244,7 @@
                     "endOffset": 17033
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 297,
                         "startColumn": 4,
@@ -1264,7 +1264,7 @@
                     "endOffset": 17121
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 300,
                         "startColumn": 4,
@@ -1283,7 +1283,7 @@
                     "endOffset": 17206
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 301,
                         "startColumn": 4,
@@ -1302,7 +1302,7 @@
                     "endOffset": 17284
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 302,
                         "startColumn": 4,
@@ -1321,7 +1321,7 @@
                     "endOffset": 17374
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 303,
                         "startColumn": 4,
@@ -1340,7 +1340,7 @@
                     "endOffset": 17458
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 304,
                         "startColumn": 4,
@@ -1359,7 +1359,7 @@
                     "endOffset": 17521
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 305,
                         "startColumn": 4,
@@ -1378,7 +1378,7 @@
                     "endOffset": 17587
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 306,
                         "startColumn": 4,
@@ -1397,7 +1397,7 @@
                     "endOffset": 17658
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 307,
                         "startColumn": 4,
@@ -1417,7 +1417,7 @@
                     "endOffset": 17806
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 308,
                         "startColumn": 4,
@@ -1437,7 +1437,7 @@
                     "endOffset": 17887
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 311,
                         "startColumn": 4,
@@ -1456,7 +1456,7 @@
                     "endOffset": 17996
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 312,
                         "startColumn": 4,
@@ -1475,7 +1475,7 @@
                     "endOffset": 18057
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/9401c611173fd88eb64a80e7293f4cd3fd0ba946/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -1494,7 +1494,7 @@
                     "endOffset": 18141
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1513,7 +1513,7 @@
                     "endOffset": 18242
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-in/values-in.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-in/values-in.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

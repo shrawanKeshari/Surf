@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-my-rMM/values-my-rMM.xml",
+        "outputFile": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/values-my-rMM/values-my-rMM.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 9536
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -32,7 +32,7 @@
                     "endOffset": 9645
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 9753
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -70,7 +70,7 @@
                     "endOffset": 9878
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -89,7 +89,7 @@
                     "endOffset": 9983
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -108,7 +108,7 @@
                     "endOffset": 10100
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -127,7 +127,7 @@
                     "endOffset": 10193
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -146,7 +146,7 @@
                     "endOffset": 10305
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -165,7 +165,7 @@
                     "endOffset": 10433
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -184,7 +184,7 @@
                     "endOffset": 10511
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -203,7 +203,7 @@
                     "endOffset": 10590
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 10676
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 10799
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 10911
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 11013
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -298,7 +298,7 @@
                     "endOffset": 11139
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -317,7 +317,7 @@
                     "endOffset": 11250
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -336,7 +336,7 @@
                     "endOffset": 11360
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -355,7 +355,7 @@
                     "endOffset": 11483
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -374,7 +374,7 @@
                     "endOffset": 11583
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -393,7 +393,7 @@
                     "endOffset": 11662
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 239,
                         "startColumn": 4,
@@ -412,7 +412,7 @@
                     "endOffset": 11724
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 240,
                         "startColumn": 4,
@@ -431,7 +431,7 @@
                     "endOffset": 11791
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -450,7 +450,7 @@
                     "endOffset": 11857
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 242,
                         "startColumn": 4,
@@ -469,7 +469,7 @@
                     "endOffset": 11924
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 243,
                         "startColumn": 4,
@@ -488,7 +488,7 @@
                     "endOffset": 11986
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 244,
                         "startColumn": 4,
@@ -507,7 +507,7 @@
                     "endOffset": 12054
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 245,
                         "startColumn": 4,
@@ -526,7 +526,7 @@
                     "endOffset": 12117
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 246,
                         "startColumn": 4,
@@ -545,7 +545,7 @@
                     "endOffset": 12173
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 247,
                         "startColumn": 4,
@@ -564,7 +564,7 @@
                     "endOffset": 12265
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 248,
                         "startColumn": 4,
@@ -583,7 +583,7 @@
                     "endOffset": 12341
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 249,
                         "startColumn": 4,
@@ -602,7 +602,7 @@
                     "endOffset": 12403
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 250,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 12483
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 251,
                         "startColumn": 4,
@@ -640,7 +640,7 @@
                     "endOffset": 12603
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 252,
                         "startColumn": 4,
@@ -659,7 +659,7 @@
                     "endOffset": 12744
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 253,
                         "startColumn": 4,
@@ -678,7 +678,7 @@
                     "endOffset": 12834
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 254,
                         "startColumn": 4,
@@ -697,7 +697,7 @@
                     "endOffset": 12962
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 255,
                         "startColumn": 4,
@@ -716,7 +716,7 @@
                     "endOffset": 13022
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 256,
                         "startColumn": 4,
@@ -735,7 +735,7 @@
                     "endOffset": 13094
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 257,
                         "startColumn": 4,
@@ -754,7 +754,7 @@
                     "endOffset": 13159
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 258,
                         "startColumn": 4,
@@ -773,7 +773,7 @@
                     "endOffset": 13233
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 259,
                         "startColumn": 4,
@@ -792,7 +792,7 @@
                     "endOffset": 13328
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 260,
                         "startColumn": 4,
@@ -812,7 +812,7 @@
                     "endOffset": 13596
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 261,
                         "startColumn": 4,
@@ -833,7 +833,7 @@
                     "endOffset": 13950
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 266,
                         "startColumn": 4,
@@ -854,7 +854,7 @@
                     "endOffset": 14374
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 272,
                         "startColumn": 4,
@@ -875,7 +875,7 @@
                     "endOffset": 14903
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 279,
                         "startColumn": 4,
@@ -896,7 +896,7 @@
                     "endOffset": 15362
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 287,
                         "startColumn": 4,
@@ -917,7 +917,7 @@
                     "endOffset": 15735
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 294,
                         "startColumn": 4,
@@ -937,7 +937,7 @@
                     "endOffset": 15813
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 300,
                         "startColumn": 4,
@@ -956,7 +956,7 @@
                     "endOffset": 15891
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 301,
                         "startColumn": 4,
@@ -976,7 +976,7 @@
                     "endOffset": 15990
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 302,
                         "startColumn": 4,
@@ -996,7 +996,7 @@
                     "endOffset": 16072
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 305,
                         "startColumn": 4,
@@ -1015,7 +1015,7 @@
                     "endOffset": 16160
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 306,
                         "startColumn": 4,
@@ -1035,7 +1035,7 @@
                     "endOffset": 16445
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 307,
                         "startColumn": 4,
@@ -1055,7 +1055,7 @@
                     "endOffset": 16530
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 310,
                         "startColumn": 4,
@@ -1074,7 +1074,7 @@
                     "endOffset": 16608
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 311,
                         "startColumn": 4,
@@ -1093,7 +1093,7 @@
                     "endOffset": 16717
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 312,
                         "startColumn": 4,
@@ -1112,7 +1112,7 @@
                     "endOffset": 16814
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 313,
                         "startColumn": 4,
@@ -1131,7 +1131,7 @@
                     "endOffset": 16929
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 314,
                         "startColumn": 4,
@@ -1150,7 +1150,7 @@
                     "endOffset": 17029
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 315,
                         "startColumn": 4,
@@ -1169,7 +1169,7 @@
                     "endOffset": 17099
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 316,
                         "startColumn": 4,
@@ -1188,7 +1188,7 @@
                     "endOffset": 17199
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 317,
                         "startColumn": 4,
@@ -1207,7 +1207,7 @@
                     "endOffset": 17299
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 318,
                         "startColumn": 4,
@@ -1226,7 +1226,7 @@
                     "endOffset": 17386
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 319,
                         "startColumn": 4,
@@ -1245,7 +1245,7 @@
                     "endOffset": 17486
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 320,
                         "startColumn": 4,
@@ -1265,7 +1265,7 @@
                     "endOffset": 17845
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 321,
                         "startColumn": 4,
@@ -1285,7 +1285,7 @@
                     "endOffset": 17933
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 324,
                         "startColumn": 4,
@@ -1304,7 +1304,7 @@
                     "endOffset": 18016
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 325,
                         "startColumn": 4,
@@ -1323,7 +1323,7 @@
                     "endOffset": 18095
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 326,
                         "startColumn": 4,
@@ -1342,7 +1342,7 @@
                     "endOffset": 18171
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 327,
                         "startColumn": 4,
@@ -1361,7 +1361,7 @@
                     "endOffset": 18238
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 328,
                         "startColumn": 4,
@@ -1380,7 +1380,7 @@
                     "endOffset": 18308
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 329,
                         "startColumn": 4,
@@ -1399,7 +1399,7 @@
                     "endOffset": 18386
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 330,
                         "startColumn": 4,
@@ -1419,7 +1419,7 @@
                     "endOffset": 18510
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 331,
                         "startColumn": 4,
@@ -1439,7 +1439,7 @@
                     "endOffset": 18589
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 334,
                         "startColumn": 4,
@@ -1458,7 +1458,7 @@
                     "endOffset": 18697
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/d7d82f66bb0cdacaae8fb72194b7afd42c59cf4f/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 335,
                         "startColumn": 4,
@@ -1477,7 +1477,7 @@
                     "endOffset": 18781
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -1496,7 +1496,7 @@
                     "endOffset": 18882
                 },
                 "from": {
-                    "file": "/home/sonu/.android/build-cache/baee41efe758e89d4672e97d3ade1b80be04193a/output/res/values-my-rMM/values-my-rMM.xml",
+                    "file": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/values-my-rMM/values-my-rMM.xml",
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,

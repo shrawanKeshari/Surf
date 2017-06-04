@@ -39,6 +39,19 @@
             android:windowSoftInputMode="adjustResize" >
         </activity>
         <activity
+            android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity"
+            android:exported="true"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/ak_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name="com.example.udacity.surfconnect.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/FullscreenTheme" >
@@ -52,10 +65,7 @@
             android:name="com.example.udacity.surfconnect.AccountActivity"
             android:label="@string/account"
             android:screenOrientation="portrait" />
-        <activity
-            android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity"
-            android:exported="true"
-            android:noHistory="true" />
+
         <!--
              The initialization ContentProvider will call AccountKit.initialize automatically
              with the application context. This config is merged in with the host app's manifest,
