@@ -714,7 +714,7 @@ public final class R {
 		public static final int icon_group = 0x7f0d00d5;
 		public static final int ifRoom = 0x7f0d0038;
 		public static final int image = 0x7f0d004e;
-		public static final int info = 0x7f0d0080;
+		public static final int info = 0x7f0d0081;
 		public static final int inline = 0x7f0d0043;
 		public static final int large = 0x7f0d0047;
 		public static final int left = 0x7f0d0028;

@@ -9,19 +9,15 @@
 
     <ImageView
         android:id="@+id/background"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/bg_wave" />
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintTop_toTopOf="parent"-->
-    <!--app:layout_constraintBottom_toBottomOf="parent" />-->
 
 
     <TextView
         android:id="@+id/title"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:drawablePadding="30dp"
         android:drawableTop="@drawable/logo_surf_connect"
@@ -29,49 +25,40 @@
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        android:textSize="22sp" />
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintTop_toTopOf="parent"-->
-    <!--app:layout_constraintBottom_toTopOf="@+id/phone_login_button" />-->
+        android:textSize="22sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="217dp" />
 
     <Button
         android:id="@+id/phone_login_button"
         style="@style/Base.Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
         android:background="@drawable/login_button_selector"
         android:onClick="onPhoneLogin"
         android:text="@string/login_phone_label"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
-        android:textSize="16sp" />
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintBottom_toTopOf="@+id/email_login_button"/>-->
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@+id/email_login_button"
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:id="@+id/email_login_button"
         style="@style/Base.Widget.AppCompat.Button.Borderless"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginBottom="64dp"
         android:background="@drawable/login_button_selector"
         android:onClick="onEmailLogin"
         android:text="@string/login_email_label"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="16sp" />
-    <!--app:layout_constraintRight_toRightOf="parent"-->
-    <!--app:layout_constraintLeft_toLeftOf="parent"-->
-    <!--app:layout_constraintBottom_toBottomOf="parent"/>-->
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/phone_login_button"
+        android:layout_alignStart="@+id/phone_login_button" />
 </RelativeLayout>

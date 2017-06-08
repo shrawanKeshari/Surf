@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import com.facebook.accountkit.AccessToken;
 import com.facebook.accountkit.AccountKit;
+import com.facebook.accountkit.AccountKitLoginResult;
 import com.facebook.accountkit.ui.AccountKitActivity;
 import com.facebook.accountkit.ui.AccountKitConfiguration;
 import com.facebook.accountkit.ui.LoginType;
+import com.facebook.appevents.AppEventsLogger;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -31,6 +34,28 @@ public class LoginActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        //make sure that request code is the appropriate value by comparing it with the pass in
+        // request code with app request code we use to launch the account kit activity.
+        // if they are't same let the function continue until it finishes.
+        if(requestCode == APP_REQUEST_CODE){
+            //if it same we extract the login result from the intent ans continue the login flow.
+            AccountKitLoginResult loginResult =
+                    data.getParcelableExtra(AccountKitLoginResult.RESULT_KEY);
+            //we want to handle the both cases where login success ans fails.
+            if(loginResult.getError() != null){
+                //if error in login result exists, display a toast with error message to the user.
+                String toastMessage = loginResult.getError().getErrorType().getMessage();
+                Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+            }else if(loginResult.getAccessToken() != null){
+                //on successful login, proceed to the account activity.
+                launchAccountActivity();
+            }
+        }
+    }
+
     //This function will implement the token request
     private void onLogin(final LoginType loginType){
         //create intent for the Account Kit Activity
@@ -48,10 +73,14 @@ public class LoginActivity extends AppCompatActivity {
 
         //launch the Account Kit Activity
         intent.putExtra(AccountKitActivity.ACCOUNT_KIT_ACTIVITY_CONFIGURATION, configuration);
-        startActivityForResult(intent, APP_REQUEST_CODE);
+        startActivityForResult(intent, APP_REQUEST_CODE);//when we request an authorisation token we
+        //launch the account kit activity by calling this method(startActivityForResult), that allows
+        //us to track the success of the login view onActivityResult().
     }
 
     public void onPhoneLogin(View view){
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        logger.logEvent("onPhoneLogin");
         onLogin(LoginType.PHONE);
     }
 
