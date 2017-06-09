@@ -3,6 +3,7 @@ package com.example.udacity.surfconnect;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,10 +65,17 @@ public class AccountActivity extends AppCompatActivity {
             public void onError(AccountKitError accountKitError) {
                 //display error
                 String toastMessage = accountKitError.getErrorType().getMessage();
-                Toast.makeText(AccountActivity.this, toastMessage, Toast.LENGTH_LONG).show();
+                Toast.makeText(AccountActivity.this, "1"+toastMessage, Toast.LENGTH_LONG).show();
             }
         });
 
+    }
+
+    public void onLogout(View view){
+        //logout of Account kit.
+        AccountKit.logOut();
+        //next start new login activity, so that it take back to login window.
+        launchLoginActivity();
     }
 
     private void launchLoginActivity() {

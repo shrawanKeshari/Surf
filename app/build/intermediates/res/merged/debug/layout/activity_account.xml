@@ -12,62 +12,71 @@
         android:id="@+id/profile_image"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        app:srcCompat="@drawable/icon_profile_empty"
-        android:layout_below="@+id/info_label"
+        android:layout_alignEnd="@+id/logout_button"
         android:layout_alignRight="@+id/logout_button"
-        android:layout_alignEnd="@+id/logout_button" />
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/icon_profile_empty" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/profile_image"
-        android:background="@android:color/white"
-        android:layout_marginTop="48dp"/>
+        android:layout_marginTop="48dp"
+        android:background="@android:color/white" />
 
     <TextView
         android:id="@+id/id_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="99dp"
-        android:textColor="@color/accountLabel"
-        android:textSize="14sp"
-        android:text="@string/id_label"
         android:layout_below="@+id/profile_image"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:text="@string/id_label"
+        android:textColor="@color/accountLabel"
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_below="@+id/id_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/accountText"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/info_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_below="@+id/id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
         android:textColor="@color/accountLabel"
-        android:textSize="14sp"/>
+        android:textSize="14sp" />
 
     <TextView
         android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_below="@+id/info_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
         android:textColor="@color/accountText"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 
     <Button
         android:id="@+id/logout_button"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/logout_label"
-        style="@style/Base.Widget.AppCompat.Button.Borderless"
-        android:textColor="@color/accountLogoutLabel"
-        android:textSize="16sp"
-        android:textAllCaps="false"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="onLogout"
+        android:text="@string/logout_label"
+        android:textAllCaps="false"
+        android:textColor="@color/accountLogoutLabel"
+        android:textSize="16sp" />
 </RelativeLayout>

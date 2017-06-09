@@ -1012,12 +1012,12 @@ int id home 0x7f0d0004
 int id homeAsUp 0x7f0d000f
 int id icon 0x7f0d0051
 int id icon_group 0x7f0d00d5
-int id id 0x7f0d0080
-int id id_label 0x7f0d007f
+int id id 0x7f0d007f
+int id id_label 0x7f0d007e
 int id ifRoom 0x7f0d0038
 int id image 0x7f0d004e
 int id info 0x7f0d0081
-int id info_label 0x7f0d007d
+int id info_label 0x7f0d0080
 int id inline 0x7f0d0043
 int id item_touch_helper_previous_elevation 0x7f0d0005
 int id label 0x7f0d00ab
@@ -1027,7 +1027,7 @@ int id line1 0x7f0d00d6
 int id line3 0x7f0d00d8
 int id listMode 0x7f0d000b
 int id list_item 0x7f0d0050
-int id logout_button 0x7f0d007e
+int id logout_button 0x7f0d007d
 int id media_actions 0x7f0d00cb
 int id messenger_send_button 0x7f0d00c4
 int id middle 0x7f0d0035

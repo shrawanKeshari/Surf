@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity {
             if(loginResult.getError() != null){
                 //if error in login result exists, display a toast with error message to the user.
                 String toastMessage = loginResult.getError().getErrorType().getMessage();
-                Toast.makeText(this, toastMessage, Toast.LENGTH_LONG).show();
+                Toast.makeText(this, "2"+toastMessage, Toast.LENGTH_LONG).show();
             }else if(loginResult.getAccessToken() != null){
                 //on successful login, proceed to the account activity.
                 launchAccountActivity();
@@ -85,6 +85,8 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void onEmailLogin(View view){
+        AppEventsLogger logger = AppEventsLogger.newLogger(this);
+        logger.logEvent("onEmailLogin");
         onLogin(LoginType.EMAIL);
     }
 
