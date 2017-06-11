@@ -752,6 +752,7 @@
     <string name="com_facebook_smart_login_confirmation_title">Confirm Login</string>
     <string name="com_facebook_tooltip_default">You\'re in control - choose what info you want to share with apps.</string>
     <string name="email_label">Email</string>
+    <string name="fb_login_protocol_scheme">fb1944526392493129</string>
     <string name="id_label">Account ID</string>
     <string name="login_email_label">Login with Email</string>
     <string name="login_phone_label">Login with Phone Number</string>

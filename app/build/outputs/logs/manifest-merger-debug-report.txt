@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:2:1-58:12
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:2:1-69:12
 	package
 		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:4:5-46
 		INJECTED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml
@@ -20,7 +20,7 @@ ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/
 	android:name
 		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:8:5-56:19
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:8:5-67:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.1/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.1/AndroidManifest.xml:29:5-20
@@ -214,8 +214,32 @@ ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/
 		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:22:13-61
 	android:name
 		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:21:20-70
+activity#com.facebook.CustomTabActivity
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:24:9-33:20
+	android:exported
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:25:13-58
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:27:13-32:29
+action#android.intent.action.VIEW
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.DEFAULT
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:29:17-76
+	android:name
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:29:27-73
+category#android.intent.category.BROWSABLE
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:30:17-78
+	android:name
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:30:27-75
+data
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:31:17-75
+	android:scheme
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:31:23-72
 activity#com.facebook.accountkit.ui.AccountKitActivity
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:24:9-28:20
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:35:9-39:20
 MERGED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:29:9-34:58
 	android:label
 		ADDED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:31:13-65
@@ -224,65 +248,47 @@ MERGED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/Wo
 	android:windowSoftInputMode
 		ADDED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:34:13-55
 	android:theme
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:37:13-49
 		REJECTED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:33:13-52
 	tools:replace
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:27:13-42
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:38:13-42
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:25:13-73
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:36:13-73
 activity#com.facebook.accountkit.ui.AccountKitEmailRedirectActivity
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:30:9-38:20
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:41:9-49:20
 MERGED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:35:9-38:40
 	android:exported
 		ADDED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:37:13-36
 	android:noHistory
 		ADDED from [com.facebook.android:account-kit-sdk:4.23.0] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/AndroidManifest.xml:38:13-37
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:31:13-86
-intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:32:13-37:29
-action#android.intent.action.VIEW
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:33:17-68
-	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:33:25-66
-category#android.intent.category.DEFAULT
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:34:17-75
-	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:34:27-73
-category#android.intent.category.BROWSABLE
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:35:17-77
-	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:35:27-75
-data
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:36:17-74
-	android:scheme
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:36:23-72
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:42:13-86
 activity#com.example.udacity.surfconnect.LoginActivity
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:40:9-49:20
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:51:9-60:20
 	android:screenOrientation
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:42:13-49
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:53:13-49
 	android:theme
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:43:13-51
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:54:13-51
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:41:13-73
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:52:13-73
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:44:13-48:29
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:55:13-59:29
 action#android.intent.action.MAIN
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:45:17-69
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:56:17-69
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:45:25-66
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:56:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:47:17-77
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:58:17-77
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:47:27-74
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:58:27-74
 activity#com.example.udacity.surfconnect.AccountActivity
-ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:51:9-54:52
+ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:62:9-65:52
 	android:screenOrientation
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:54:13-49
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:65:13-49
 	android:label
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:53:13-44
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:64:13-44
 	android:name
-		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:52:13-75
+		ADDED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml:63:13-75
 uses-sdk
 INJECTED from /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/AndroidManifest.xml:21:5-23:78
