@@ -62,6 +62,6 @@
         android:onClick="onEmailLogin"
         android:text="@string/login_email_label"
         android:textAlignment="center"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:textSize="16sp" />
 </RelativeLayout>
