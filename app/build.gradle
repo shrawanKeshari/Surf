@@ -24,4 +24,6 @@ dependencies {
     compile 'com.googlecode.libphonenumber:libphonenumber:8.4.0'
     compile 'com.facebook.android:account-kit-sdk:4.23.0'
     compile 'com.facebook.android:facebook-android-sdk:4.23.0'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.makeramen:roundedimageview:2.3.0'
 }

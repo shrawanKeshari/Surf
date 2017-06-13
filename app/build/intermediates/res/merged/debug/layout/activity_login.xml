@@ -76,7 +76,7 @@
         android:layout_alignRight="@+id/phone_login_button"
         android:layout_alignStart="@+id/phone_login_button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="58dp"
+        android:layout_marginBottom="40dp"
         android:paddingBottom="14dp"
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
