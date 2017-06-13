@@ -21,7 +21,7 @@ import com.facebook.login.widget.LoginButton;
 
 public class LoginActivity extends AppCompatActivity {
 
-    public static  int APP_REQUEST_CODE = 1;
+    public static int APP_REQUEST_CODE = 1;
     LoginButton loginButton;
     CallbackManager callbackManager;
 
@@ -39,7 +39,9 @@ public class LoginActivity extends AppCompatActivity {
         loginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
             @Override
             public void onSuccess(LoginResult loginResult) {
-
+                //we start launching our account activity in this method, so that the user is
+                // redirected to account screen after successful login with facebook
+                launchAccountActivity();
             }
 
             @Override
@@ -51,14 +53,15 @@ public class LoginActivity extends AppCompatActivity {
             public void onError(FacebookException error) {
                 //display error
                 String toastMessage = error.getMessage();
-                Toast.makeText(LoginActivity.this, toastMessage,Toast.LENGTH_LONG).show();
+                Toast.makeText(LoginActivity.this, toastMessage, Toast.LENGTH_LONG).show();
             }
         });
 
         //check for an existing access token. It is accessible when user logged in. If user is
         // logged in accessToken will not be null.
         AccessToken accessToken = AccountKit.getCurrentAccessToken();
-        if(accessToken != null){
+        com.facebook.AccessToken loginToken = com.facebook.AccessToken.getCurrentAccessToken();
+        if (accessToken != null || loginToken != null) {
             //if previously logged in, proceed to the account activity
             //if null we will continue with login flow
             launchAccountActivity();
@@ -70,21 +73,21 @@ public class LoginActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         //forward result to the callback manager for login button
-        callbackManager.onActivityResult(requestCode, resultCode,data);
+        callbackManager.onActivityResult(requestCode, resultCode, data);
 
         //make sure that request code is the appropriate value by comparing it with the pass in
         // request code with app request code we use to launch the account kit activity.
         // if they are't same let the function continue until it finishes.
-        if(requestCode == APP_REQUEST_CODE){
+        if (requestCode == APP_REQUEST_CODE) {
             //if it same we extract the login result from the intent ans continue the login flow.
             AccountKitLoginResult loginResult =
                     data.getParcelableExtra(AccountKitLoginResult.RESULT_KEY);
             //we want to handle the both cases where login success ans fails.
-            if(loginResult.getError() != null){
+            if (loginResult.getError() != null) {
                 //if error in login result exists, display a toast with error message to the user.
                 String toastMessage = loginResult.getError().getErrorType().getMessage();
-                Toast.makeText(this, "2"+toastMessage, Toast.LENGTH_LONG).show();
-            }else if(loginResult.getAccessToken() != null){
+                Toast.makeText(this, "2" + toastMessage, Toast.LENGTH_LONG).show();
+            } else if (loginResult.getAccessToken() != null) {
                 //on successful login, proceed to the account activity.
                 launchAccountActivity();
             }
@@ -92,7 +95,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     //This function will implement the token request
-    private void onLogin(final LoginType loginType){
+    private void onLogin(final LoginType loginType) {
         //create intent for the Account Kit Activity
         final Intent intent = new Intent(this, AccountKitActivity.class);
 
@@ -113,13 +116,13 @@ public class LoginActivity extends AppCompatActivity {
         //us to track the success of the login view onActivityResult().
     }
 
-    public void onPhoneLogin(View view){
+    public void onPhoneLogin(View view) {
         AppEventsLogger logger = AppEventsLogger.newLogger(this);
         logger.logEvent("onPhoneLogin");
         onLogin(LoginType.PHONE);
     }
 
-    public void onEmailLogin(View view){
+    public void onEmailLogin(View view) {
         AppEventsLogger logger = AppEventsLogger.newLogger(this);
         logger.logEvent("onEmailLogin");
         onLogin(LoginType.EMAIL);
