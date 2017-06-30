@@ -668,7 +668,7 @@
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="account">Account</string>
     <string name="ak_login_protocol_scheme">ak1944526392493129</string>
-    <string name="app_name">Surf Connect</string>
+    <string name="app_name">Surf</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>

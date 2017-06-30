@@ -7,6 +7,7 @@ import android.support.v4.graphics.drawable.RoundedBitmapDrawableFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -25,6 +26,7 @@ import com.google.i18n.phonenumbers.PhoneNumberUtil;
 import com.google.i18n.phonenumbers.Phonenumber;
 
 import java.util.Locale;
+
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.Transformation;
 import com.makeramen.roundedimageview.RoundedTransformationBuilder;
@@ -36,6 +38,7 @@ public class AccountActivity extends AppCompatActivity {
     TextView id;
     TextView infoLabel;
     TextView info;
+    Button family, tagged_place, tagged_photo, uploaded_photo, git_hub;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,6 +50,11 @@ public class AccountActivity extends AppCompatActivity {
         infoLabel = (TextView) findViewById(R.id.info_label);
         info = (TextView) findViewById(R.id.info);
         profilePic = (ImageView) findViewById(R.id.profile_image);
+        family = (Button) findViewById(R.id.family);
+        tagged_photo = (Button) findViewById(R.id.tagged_photos);
+        tagged_place = (Button) findViewById(R.id.tagged_places);
+        uploaded_photo = (Button) findViewById(R.id.uploaded_photos);
+        git_hub = (Button) findViewById(R.id.git_hub);
 
         profileTracker = new ProfileTracker() {
             @Override
@@ -58,17 +66,21 @@ public class AccountActivity extends AppCompatActivity {
         };
 
         if (AccessToken.getCurrentAccessToken() != null) {
+            git_hub.setVisibility(View.INVISIBLE);
             // If there is an access token then Login Button was used
             // Check if the profile has already been fetched
             Profile currentProfile = Profile.getCurrentProfile();
             if (currentProfile != null) {
                 displayProfileInfo(currentProfile);
-            }
-            else {
+            } else {
                 // Fetch the profile, which will trigger the onCurrentProfileChanged receiver
                 Profile.fetchProfileForCurrentAccessToken();
             }
-        }else{
+        } else {
+            family.setVisibility(View.INVISIBLE);
+            tagged_place.setVisibility(View.INVISIBLE);
+            tagged_photo.setVisibility(View.INVISIBLE);
+            uploaded_photo.setVisibility(View.INVISIBLE);
             //once we are logged in via an account kit token, we can grab account information that we
             // might be interested in such as account id, phone number or email. We can do this with
             // call to getCurrentAccount(), in this we pass in anonymous inner class AccountKitCallback

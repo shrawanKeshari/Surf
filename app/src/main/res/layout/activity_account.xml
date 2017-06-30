@@ -18,6 +18,7 @@
         app:srcCompat="@drawable/icon_profile_empty" />
 
     <View
+        android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/profile_image"
@@ -30,7 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/profile_image"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="60dp"
         android:text="@string/id_label"
         android:textColor="@color/accountLabel"
         android:textSize="14sp" />
@@ -41,8 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/id_label"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/accountText"
         android:textSize="16sp" />
 
@@ -52,8 +53,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/id"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/accountLabel"
         android:textSize="14sp" />
 
@@ -63,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/info_label"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:textColor="@color/accountText"
         android:textSize="16sp" />
 
@@ -79,4 +80,56 @@
         android:textAllCaps="false"
         android:textColor="@color/accountLogoutLabel"
         android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/tagged_photos"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/info"
+        android:layout_marginTop="20dp"
+        android:layout_toLeftOf="@+id/profile_image"
+        android:layout_toStartOf="@+id/profile_image"
+        android:text="TAGGED PHOTOS" />
+
+    <Button
+        android:id="@+id/tagged_places"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/logout_button"
+        android:layout_alignLeft="@+id/tagged_photos"
+        android:layout_alignStart="@+id/tagged_photos"
+        android:text="TAGGED PLACES" />
+
+    <Button
+        android:id="@+id/uploaded_photos"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tagged_photos"
+        android:layout_toEndOf="@+id/id_label"
+        android:layout_toRightOf="@+id/id_label"
+        android:text="UPLOADED PHOTOS" />
+
+    <Button
+        android:id="@+id/family"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tagged_places"
+        android:layout_alignLeft="@+id/uploaded_photos"
+        android:layout_alignStart="@+id/uploaded_photos"
+        android:text="FAMILY" />
+
+    <Button
+        android:id="@+id/git_hub"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/family"
+        android:layout_alignEnd="@+id/profile_image"
+        android:layout_alignRight="@+id/profile_image"
+        android:text="GITHUB REPOS" />
+
 </RelativeLayout>
