@@ -12,6 +12,7 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.text.Layout;
+import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -34,7 +35,6 @@ public class DisplayActivity extends AppCompatActivity {
     Button ok;
     View lay;
     ProgressBar pb;
-    private static String webUrl = "https://api.github.com/users/";
     String sb;
 
     @Override
@@ -59,11 +59,17 @@ public class DisplayActivity extends AppCompatActivity {
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(isOnline()){
+                tv.setText("");
+                if (isOnline()) {
                     sb = et.getText().toString();
-                    webUrl = webUrl + sb + "/repos";
-                    requestData(webUrl);
-                }else{
+                    if (check_username(sb)) {
+                        Toast.makeText(DisplayActivity.this, "Enter valid username",
+                                Toast.LENGTH_LONG).show();
+                    } else {
+                        Log.d("message", sb);
+                        requestData("https://api.github.com/users/" + sb + "/repos");
+                    }
+                } else {
                     Toast.makeText(DisplayActivity.this, "No Internet Connection",
                             Toast.LENGTH_LONG).show();
                 }
@@ -73,11 +79,22 @@ public class DisplayActivity extends AppCompatActivity {
         Intent intent = getIntent();
         String check = intent.getStringExtra(AccountActivity.EXTRA_MESSAGE);
 
-        if(!check.equals("GITHUB REPOS")){
+        if (!check.equals("GITHUB REPOS")) {
             et.setVisibility(View.INVISIBLE);
             ok.setVisibility(View.INVISIBLE);
             lay.setVisibility(View.INVISIBLE);
         }
+    }
+
+    private boolean check_username(String sb) {
+        if (sb.equals("")) {
+            return true;
+        } else if (sb.charAt(0) == '-' || sb.charAt(sb.length() - 1) == '-') {
+            return true;
+        } else if (!sb.matches("^[a-zA-Z0-9-]*$")) {
+            return true;
+        }
+        return false;
     }
 
     private void requestData(String uri) {
@@ -86,9 +103,10 @@ public class DisplayActivity extends AppCompatActivity {
     }
 
     protected void updateDisplay() {
-        if(ouputList != null){
-            for (GithubField str: ouputList){
-                tv.append("Name: " + str.getName()+"\n");
+        tv.append("UserName: " + sb + "\n");
+        if (ouputList != null) {
+            for (GithubField str : ouputList) {
+                tv.append("Name: " + str.getName() + "\n");
                 tv.append("Id: " + str.getId() + "\n");
                 tv.append("Created At: " + str.getCreated() + "\n");
                 tv.append("Updated At: " + str.getUpdated() + "\n");
@@ -96,16 +114,17 @@ public class DisplayActivity extends AppCompatActivity {
                 tv.append("\n");
             }
         }
+        et.setText("");
     }
 
-    protected boolean isOnline(){
+    protected boolean isOnline() {
         ConnectivityManager cm = (ConnectivityManager)
                 getSystemService(Context.CONNECTIVITY_SERVICE);
 
         NetworkInfo netInfo = cm.getActiveNetworkInfo();
-        if(netInfo != null && netInfo.isConnectedOrConnecting()){
+        if (netInfo != null && netInfo.isConnectedOrConnecting()) {
             return true;
-        }else{
+        } else {
             return false;
         }
     }
@@ -130,13 +149,24 @@ public class DisplayActivity extends AppCompatActivity {
         @Override
         protected void onPostExecute(String result) {
 
-            ouputList = GitHubJSON.parse(result);
-            updateDisplay();
-
             tasks.remove(this);
             if (tasks.size() == 0) {
                 pb.setVisibility(View.INVISIBLE);
             }
+
+            if (result == null) {
+                Toast.makeText(DisplayActivity.this, "Repository Not Exist or " +
+                        "Check Your Internet Access", Toast.LENGTH_LONG).show();
+                return;
+            }
+            if (result.equals("")) {
+                Toast.makeText(DisplayActivity.this, "Repository Is Empty", Toast.LENGTH_LONG)
+                        .show();
+                return;
+            }
+
+            ouputList = GitHubJSON.parse(result);
+            updateDisplay();
         }
 
 //        @Override
