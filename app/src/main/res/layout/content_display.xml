@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,8 +22,8 @@
         <EditText
             android:id="@+id/edit_text"
             android:layout_width="0dp"
-            android:layout_weight="4"
             android:layout_height="wrap_content"
+            android:layout_weight="4"
             android:background="@android:color/transparent"
             android:hint="Enter Github Username"
             android:textSize="25sp" />
@@ -31,18 +31,24 @@
         <Button
             android:id="@+id/ok_b"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="Ok" />
 
     </LinearLayout>
 
-    <ListView
-        android:id="@+id/list"
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_below="@+id/l1"
+        android:layout_height="match_parent">
 
-    </ListView>
+        <TextView
+            android:id="@+id/text_view"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ScrollView>
 
     <ProgressBar
         android:id="@+id/progress_bar1"
@@ -51,4 +57,4 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true" />
 
-</LinearLayout>
+</RelativeLayout>

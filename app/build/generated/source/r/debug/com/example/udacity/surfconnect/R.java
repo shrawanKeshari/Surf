@@ -3700,7 +3700,6 @@ containing a value of this type.
         public static final int left=0x7f0d0028;
         public static final int line1=0x7f0d00e6;
         public static final int line3=0x7f0d00e8;
-        public static final int list=0x7f0d00c8;
         public static final int listMode=0x7f0d000b;
         public static final int list_item=0x7f0d0053;
         public static final int logout_button=0x7f0d0080;
@@ -3778,6 +3777,7 @@ containing a value of this type.
         public static final int textSpacerNoButtons=0x7f0d005d;
         public static final int textSpacerNoTitle=0x7f0d005c;
         public static final int text_input_password_toggle=0x7f0d00d3;
+        public static final int text_view=0x7f0d00c8;
         public static final int time=0x7f0d00e0;
         public static final int title=0x7f0d0055;
         public static final int titleDividerNoCustom=0x7f0d0064;

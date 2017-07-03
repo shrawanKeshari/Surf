@@ -1046,7 +1046,6 @@ int id large 0x7f0d004a
 int id left 0x7f0d0028
 int id line1 0x7f0d00e6
 int id line3 0x7f0d00e8
-int id list 0x7f0d00c8
 int id listMode 0x7f0d000b
 int id list_item 0x7f0d0053
 int id logout_button 0x7f0d0080
@@ -1124,6 +1123,7 @@ int id text2 0x7f0d00e7
 int id textSpacerNoButtons 0x7f0d005d
 int id textSpacerNoTitle 0x7f0d005c
 int id text_input_password_toggle 0x7f0d00d3
+int id text_view 0x7f0d00c8
 int id time 0x7f0d00e0
 int id title 0x7f0d0055
 int id titleDividerNoCustom 0x7f0d0064
