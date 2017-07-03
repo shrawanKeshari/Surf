@@ -120,7 +120,7 @@
         android:layout_alignBottom="@+id/tagged_places"
         android:layout_alignLeft="@+id/uploaded_photos"
         android:layout_alignStart="@+id/uploaded_photos"
-        android:text="FAMILY" />
+        android:text="FAMILY"/>
 
     <Button
         android:id="@+id/git_hub"
@@ -129,7 +129,6 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/family"
         android:layout_alignEnd="@+id/profile_image"
-        android:layout_alignRight="@+id/profile_image"
         android:text="GITHUB REPOS" />
 
 </RelativeLayout>

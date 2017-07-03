@@ -12,7 +12,9 @@
         <item name="com_accountkit_background_color">@color/ak_background</item>
         <item name="com_accountkit_text_color">@color/ak_text</item>
         <item name="com_accountkit_button_background_color">@color/ak_buttonBackground</item>
-        <item name="com_accountkit_button_pressed_background_color">@color/ak_buttonPressedBackground</item>
+        <item name="com_accountkit_button_pressed_background_color">
+            @color/ak_buttonPressedBackground
+        </item>
         <item name="com_accountkit_button_text_color">@color/ak_buttonText</item>
         <item name="com_accountkit_input_background_color">@color/ak_inputBackground</item>
         <item name="com_accountkit_input_text_color">@color/ak_inputText</item>
@@ -23,4 +25,13 @@
     <style name="FullscreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowTranslucentStatus">true</item>
     </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

@@ -493,6 +493,8 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
@@ -588,6 +590,7 @@
     <dimen name="design_tab_text_size_2line">12sp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="fab_margin">16dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -773,6 +776,7 @@
     <string name="phone_label">Phone Number</string>
     <string name="search_menu_title">Search</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_activity_display">DisplayActivity</string>
     <style name="AccountKit.ActionBar" parent="ThemeOverlay.AppCompat.ActionBar">
         <item name="android:background">?attr/com_accountkit_header_background_color</item>
         <item name="colorControlNormal">?attr/com_accountkit_header_text_color</item>
@@ -813,7 +817,9 @@
         <item name="com_accountkit_background_color">@color/ak_background</item>
         <item name="com_accountkit_text_color">@color/ak_text</item>
         <item name="com_accountkit_button_background_color">@color/ak_buttonBackground</item>
-        <item name="com_accountkit_button_pressed_background_color">@color/ak_buttonPressedBackground</item>
+        <item name="com_accountkit_button_pressed_background_color">
+            @color/ak_buttonPressedBackground
+        </item>
         <item name="com_accountkit_button_text_color">@color/ak_buttonText</item>
         <item name="com_accountkit_input_background_color">@color/ak_inputBackground</item>
         <item name="com_accountkit_input_text_color">@color/ak_inputText</item>
@@ -826,6 +832,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
     <style name="Base.AccountKit.AgreementText" parent="TextAppearance.AppCompat.Small">
         <item name="android:textColor">?attr/com_accountkit_text_color</item>
         <item name="android:textColorLink">?attr/com_accountkit_text_color</item>

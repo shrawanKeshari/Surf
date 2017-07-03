@@ -5,10 +5,11 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="15"
+        android:minSdkVersion="20"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <meta-data
         android:name="android.support.VERSION"
@@ -48,8 +49,7 @@
             android:label="@string/com_accountkit_button_log_in"
             android:launchMode="singleTop"
             android:theme="@style/AppLoginTheme"
-            android:windowSoftInputMode="adjustResize" >
-        </activity>
+            android:windowSoftInputMode="adjustResize" />
         <activity
             android:name="com.facebook.accountkit.ui.AccountKitEmailRedirectActivity"
             android:exported="true"
@@ -77,7 +77,15 @@
             android:name="com.example.udacity.surfconnect.AccountActivity"
             android:label="@string/account"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name="com.example.udacity.surfconnect.DisplayActivity"
+            android:label="@string/title_activity_display"
+            android:parentActivityName="com.example.udacity.surfconnect.AccountActivity"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.udacity.surfconnect.AccountActivity" />
+        </activity>
         <!--
              The initialization ContentProvider will call AccountKit.initialize automatically
              with the application context. This config is merged in with the host app's manifest,

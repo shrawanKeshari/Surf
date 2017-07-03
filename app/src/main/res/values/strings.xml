@@ -12,4 +12,5 @@
     <string name="name_label">Name</string>
     <string name="FACEBOOK_APP_ID">1944526392493129</string>
     <string name="ACCOUNT_KIT_CLIENT_TOKEN">8d83ac6f1c3c56e73010fafbb4080dbf</string>
+    <string name="title_activity_display">DisplayActivity</string>
 </resources>

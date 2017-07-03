@@ -39,6 +39,8 @@ public class AccountActivity extends AppCompatActivity {
     TextView infoLabel;
     TextView info;
     Button family, tagged_place, tagged_photo, uploaded_photo, git_hub;
+    public static final String EXTRA_MESSAGE = "com.example.udacity.surfconnect";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -64,6 +66,56 @@ public class AccountActivity extends AppCompatActivity {
                 }
             }
         };
+
+        git_hub.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AccountActivity.this,DisplayActivity.class);
+                String name = git_hub.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE,name);
+                startActivity(intent);
+            }
+        });
+
+        tagged_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AccountActivity.this,DisplayActivity.class);
+                String name = tagged_photo.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE,name);
+                startActivity(intent);
+            }
+        });
+
+        tagged_place.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AccountActivity.this,DisplayActivity.class);
+                String name = tagged_place.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE,name);
+                startActivity(intent);
+            }
+        });
+
+        uploaded_photo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AccountActivity.this,DisplayActivity.class);
+                String name = uploaded_photo.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE,name);
+                startActivity(intent);
+            }
+        });
+
+        family.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(AccountActivity.this,DisplayActivity.class);
+                String name = family.getText().toString();
+                intent.putExtra(EXTRA_MESSAGE,name);
+                startActivity(intent);
+            }
+        });
 
         if (AccessToken.getCurrentAccessToken() != null) {
             git_hub.setVisibility(View.INVISIBLE);
@@ -116,6 +168,7 @@ public class AccountActivity extends AppCompatActivity {
                 }
             });
         }
+
     }
 
     @Override
@@ -179,5 +232,4 @@ public class AccountActivity extends AppCompatActivity {
                 .transform(transformation)
                 .into(profilePic);
     }
-
 }
