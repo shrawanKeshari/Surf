@@ -4,38 +4,47 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.text.Layout;
 import android.util.Log;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+import com.facebook.AccessToken;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.GraphRequest;
+import com.facebook.GraphResponse;
+import com.facebook.HttpMethod;
+import com.facebook.login.LoginManager;
+import com.facebook.login.LoginResult;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Set;
 
 public class DisplayActivity extends AppCompatActivity {
 
     EditText et;
     TextView tv;
     List<MyTask> tasks;
-    List<GithubField> ouputList;
+    List<GithubField> outputList;
+    List<FacebookField> fbresult;
     Button ok;
-    View lay;
     ProgressBar pb;
     String sb;
+    CallbackManager callbackManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +58,6 @@ public class DisplayActivity extends AppCompatActivity {
         tv = (TextView) findViewById(R.id.text_view);
         et = (EditText) findViewById(R.id.edit_text);
         ok = (Button) findViewById(R.id.ok_b);
-        lay = findViewById(R.id.l1);
 
         pb = (ProgressBar) findViewById(R.id.progress_bar1);
         pb.setVisibility(View.INVISIBLE);
@@ -76,13 +84,111 @@ public class DisplayActivity extends AppCompatActivity {
             }
         });
 
+        callbackManager = CallbackManager.Factory.create();
+
         Intent intent = getIntent();
-        String check = intent.getStringExtra(AccountActivity.EXTRA_MESSAGE);
+        final String check = intent.getStringExtra(AccountActivity.EXTRA_MESSAGE);
 
         if (!check.equals("GITHUB REPOS")) {
-            et.setVisibility(View.INVISIBLE);
             ok.setVisibility(View.INVISIBLE);
-            lay.setVisibility(View.INVISIBLE);
+            if (AccessToken.getCurrentAccessToken() == null){
+                //Facebook login access token is required
+                finish();
+                return;
+            }
+
+            et.setText(check);
+
+            if(check.equals("FAMILY")){
+                tv.setText("");
+                //check for required permissions
+                Set permissions = AccessToken.getCurrentAccessToken().getPermissions();
+                if(permissions.contains("user_relationships")){
+                    fetchFriends();
+                }else{
+                    //prompt user to grant permissions
+                    LoginManager loginManager = LoginManager.getInstance();
+                    loginManager.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+                        @Override
+                        public void onSuccess(LoginResult loginResult) {
+                            fetchFriends();
+                        }
+
+                        @Override
+                        public void onCancel() {
+                            //inform user that permission is required
+                            String permissionMsg = "Surf requires permission access your Family Relationship";
+                            Toast.makeText(DisplayActivity.this, permissionMsg, Toast.LENGTH_LONG)
+                                    .show();
+                        }
+
+                        @Override
+                        public void onError(FacebookException error) {
+
+                        }
+                    });
+
+                    loginManager.logInWithReadPermissions(this, Arrays.asList("user_relationships"));
+                }
+            }
+        }
+    }
+
+    @Override
+    protected void onActivityResult(final int requestCode, final int resultCode, final Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        // Forward result to the callback manager for Login Button
+        callbackManager.onActivityResult(requestCode, resultCode, data);
+    }
+
+    private void fetchFriends() {
+        //make the API call to fetch family relationship list
+        Bundle parameters = new Bundle();
+        parameters.putString("fields","name,relationship");
+        new GraphRequest(AccessToken.getCurrentAccessToken(), "/me/family",
+                parameters, HttpMethod.GET,
+                new GraphRequest.Callback() {
+                    @Override
+                    public void onCompleted(GraphResponse response) {
+                        if(response.getError() != null){
+                            //display error message
+                            Toast.makeText(DisplayActivity.this,
+                                    response.getError().getErrorMessage(), Toast.LENGTH_LONG)
+                                    .show();
+                        }
+
+                        fbresult = new ArrayList<>();
+                        //parse json data
+                        JSONObject jsonResponse = response.getJSONObject();
+                        try{
+                            JSONArray jsonData = jsonResponse.getJSONArray("data");
+                            for(int i = 0; i < jsonData.length(); i++){
+                                JSONObject jsonUser = jsonData.getJSONObject(i);
+                                FacebookField ff = new FacebookField();
+
+                                ff.setName(jsonUser.getString("name"));
+                                ff.setRelationship(jsonUser.getString("relationship"));
+
+                                fbresult.add(ff);
+                            }
+                        }catch (JSONException e){
+                            e.printStackTrace();
+                        }
+
+                        updateFBDisplay();
+
+                    }
+                }).executeAsync();
+    }
+
+    private void updateFBDisplay() {
+        if(fbresult != null){
+            for (FacebookField ff : fbresult){
+                tv.append("Name: " + ff.getName() + "\n");
+                tv.append("Relationship: " + ff.getRelationship() + "\n");
+                tv.append("\n");
+            }
         }
     }
 
@@ -104,8 +210,8 @@ public class DisplayActivity extends AppCompatActivity {
 
     protected void updateDisplay() {
         tv.append("UserName: " + sb + "\n");
-        if (ouputList != null) {
-            for (GithubField str : ouputList) {
+        if (outputList != null) {
+            for (GithubField str : outputList) {
                 tv.append("Name: " + str.getName() + "\n");
                 tv.append("Id: " + str.getId() + "\n");
                 tv.append("Created At: " + str.getCreated() + "\n");
@@ -165,13 +271,8 @@ public class DisplayActivity extends AppCompatActivity {
                 return;
             }
 
-            ouputList = GitHubJSON.parse(result);
+            outputList = GitHubJSON.parse(result);
             updateDisplay();
         }
-
-//        @Override
-//        protected void onProgressUpdate(String... values) {
-//            updateDisplay(values[0]);
-//        }
     }
 }
