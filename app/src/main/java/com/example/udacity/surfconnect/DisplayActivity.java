@@ -31,6 +31,7 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Set;
 
@@ -43,8 +44,9 @@ public class DisplayActivity extends AppCompatActivity {
     List<FacebookField> fbresult;
     Button ok;
     ProgressBar pb;
-    String sb;
+    String sb, check_permission, display_permission,check;
     CallbackManager callbackManager;
+    ArrayList<String> fieldList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,7 +76,6 @@ public class DisplayActivity extends AppCompatActivity {
                         Toast.makeText(DisplayActivity.this, "Enter valid username",
                                 Toast.LENGTH_LONG).show();
                     } else {
-                        Log.d("message", sb);
                         requestData("https://api.github.com/users/" + sb + "/repos");
                     }
                 } else {
@@ -87,7 +88,7 @@ public class DisplayActivity extends AppCompatActivity {
         callbackManager = CallbackManager.Factory.create();
 
         Intent intent = getIntent();
-        final String check = intent.getStringExtra(AccountActivity.EXTRA_MESSAGE);
+        check = intent.getStringExtra(AccountActivity.EXTRA_MESSAGE);
 
         if (!check.equals("GITHUB REPOS")) {
             ok.setVisibility(View.INVISIBLE);
@@ -98,38 +99,53 @@ public class DisplayActivity extends AppCompatActivity {
             }
 
             et.setText(check);
-
+            et.setFocusable(false);
+            tv.setText("");
+            fieldList = new ArrayList<>();
             if(check.equals("FAMILY")){
-                tv.setText("");
-                //check for required permissions
-                Set permissions = AccessToken.getCurrentAccessToken().getPermissions();
-                if(permissions.contains("user_relationships")){
-                    fetchFriends();
-                }else{
-                    //prompt user to grant permissions
-                    LoginManager loginManager = LoginManager.getInstance();
-                    loginManager.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-                        @Override
-                        public void onSuccess(LoginResult loginResult) {
-                            fetchFriends();
-                        }
+                check_permission = "user_relationships";
+                display_permission = "Family Relationship";
+                fieldList.add("family");
+                fieldList.add("name");
+                fieldList.add("relationship");
+            }
 
-                        @Override
-                        public void onCancel() {
-                            //inform user that permission is required
-                            String permissionMsg = "Surf requires permission access your Family Relationship";
-                            Toast.makeText(DisplayActivity.this, permissionMsg, Toast.LENGTH_LONG)
-                                    .show();
-                        }
+            if(check.equals("TAGGED PLACES")){
+                check_permission = "user_tagged_places";
+                display_permission = "Tagged Places";
+                fieldList.add("tagged_places");
+                fieldList.add("place");
+            }
+            //check for required permissions
+            Log.d("message",fieldList.get(0)+" "+fieldList.get(1));
+            Set permissions = AccessToken.getCurrentAccessToken().getPermissions();
+            if(permissions.contains(check_permission)){
+                fetchData();
+            }else{
+                //prompt user to grant permissions
+                LoginManager loginManager = LoginManager.getInstance();
+                loginManager.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+                    @Override
+                    public void onSuccess(LoginResult loginResult) {
+                        fetchData();
+                    }
 
-                        @Override
-                        public void onError(FacebookException error) {
+                    @Override
+                    public void onCancel() {
+                        //inform user that permission is required
+                        String permissionMsg = "Surf requires permission to access your"+
+                                display_permission;
+                        Toast.makeText(DisplayActivity.this, permissionMsg, Toast.LENGTH_LONG)
+                                .show();
+                    }
 
-                        }
-                    });
+                    @Override
+                    public void onError(FacebookException error) {
 
-                    loginManager.logInWithReadPermissions(this, Arrays.asList("user_relationships"));
-                }
+                    }
+                });
+
+                loginManager.logInWithReadPermissions(this, Arrays.asList(check_permission));
             }
         }
     }
@@ -142,11 +158,22 @@ public class DisplayActivity extends AppCompatActivity {
         callbackManager.onActivityResult(requestCode, resultCode, data);
     }
 
-    private void fetchFriends() {
+    private void fetchData() {
         //make the API call to fetch family relationship list
+        StringBuilder field_parameter = new StringBuilder("");
+        int n = fieldList.size();
+        for(int i = 1; i < n; i++){
+            field_parameter.append(fieldList.get(i));
+            if(i != (n-1)){
+                field_parameter.append(",");
+            }
+        }
+
+        final String check_permission = fieldList.get(0);
+
         Bundle parameters = new Bundle();
-        parameters.putString("fields","name,relationship");
-        new GraphRequest(AccessToken.getCurrentAccessToken(), "/me/family",
+        parameters.putString("fields",field_parameter.toString());
+        new GraphRequest(AccessToken.getCurrentAccessToken(), "/me/"+check_permission,
                 parameters, HttpMethod.GET,
                 new GraphRequest.Callback() {
                     @Override
@@ -167,8 +194,12 @@ public class DisplayActivity extends AppCompatActivity {
                                 JSONObject jsonUser = jsonData.getJSONObject(i);
                                 FacebookField ff = new FacebookField();
 
-                                ff.setName(jsonUser.getString("name"));
-                                ff.setRelationship(jsonUser.getString("relationship"));
+                                if(check_permission.equals("family")){
+                                    ff.setName(jsonUser.getString("name"));
+                                    ff.setRelationship(jsonUser.getString("relationship"));
+                                }else if(check_permission.equals("tagged_places")){
+                                    ff.setName(jsonUser.getJSONObject("place").getString("name"));
+                                }
 
                                 fbresult.add(ff);
                             }
@@ -186,7 +217,9 @@ public class DisplayActivity extends AppCompatActivity {
         if(fbresult != null){
             for (FacebookField ff : fbresult){
                 tv.append("Name: " + ff.getName() + "\n");
-                tv.append("Relationship: " + ff.getRelationship() + "\n");
+                if(fieldList.get(0).equals("family")){
+                    tv.append("Relationship: " + ff.getRelationship() + "\n");
+                }
                 tv.append("\n");
             }
         }

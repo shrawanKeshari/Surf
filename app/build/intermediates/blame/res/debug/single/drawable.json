@@ -4,36 +4,36 @@
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_btn_check_material.xml"
     },
     {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/drawable/com_facebook_button_icon.xml"
-    },
-    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/com_facebook_button_icon.xml",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/drawable/com_facebook_button_icon.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_material.xml"
-    },
-    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/ic_arrow_back_white.xml",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/drawable/ic_arrow_back_white.xml"
+    },
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_ratingbar_material.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_switch_thumb_material.xml"
     },
     {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_spinner_textfield_background_material.xml"
-    },
-    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/com_accountkit_error_exclamation.xml",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/drawable/com_accountkit_error_exclamation.xml"
+    },
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
