@@ -12,24 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/bg_wave" />
+        app:srcCompat="@drawable/pic" />
 
 
     <TextView
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="217dp"
+        android:layout_marginTop="74dp"
         android:drawablePadding="30dp"
-        android:drawableTop="@drawable/logo_surf_connect"
         android:text="@string/app_name"
+        android:textStyle="bold"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textColor="@android:color/white"
-        android:textSize="22sp" />
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/phone_login_button"
@@ -41,11 +40,11 @@
         android:layout_marginBottom="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="@drawable/login_button_selector"
+        android:background="@android:color/transparent"
         android:onClick="onPhoneLogin"
         android:text="@string/login_phone_label"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp" />
 
     <Button
@@ -59,11 +58,11 @@
         android:layout_alignRight="@+id/phone_login_button"
         android:layout_alignStart="@+id/phone_login_button"
         android:layout_marginBottom="10dp"
-        android:background="@drawable/login_button_selector"
+        android:background="@android:color/transparent"
         android:onClick="onEmailLogin"
         android:text="@string/login_email_label"
         android:textAlignment="center"
-        android:textColor="@android:color/black"
+        android:textColor="@android:color/white"
         android:textSize="16sp" />
 
     <com.facebook.login.widget.LoginButton

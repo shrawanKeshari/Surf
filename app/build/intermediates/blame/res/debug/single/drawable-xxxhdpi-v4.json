@@ -32,6 +32,10 @@
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/pic.jpg",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/drawable-xxxhdpi/pic.jpg"
+    },
+    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -102,10 +106,6 @@
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png"
-    },
-    {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/logo_surf_connect.png",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/drawable-xxxhdpi/logo_surf_connect.png"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png",

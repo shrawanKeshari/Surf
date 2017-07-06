@@ -8,10 +8,6 @@
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/account-kit-sdk/4.23.0/res/drawable-xhdpi-v4/com_accountkit_spinner_triangle.png"
     },
     {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/bg_wave.png",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/drawable-xhdpi/bg_wave.png"
-    },
-    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_large_blue.png",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/drawable-xhdpi-v4/messenger_bubble_large_blue.png"
     },
@@ -104,10 +100,6 @@
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/drawable-xhdpi-v4/com_facebook_tooltip_black_bottomnub.png"
     },
     {
-        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/logo_surf_connect.png",
-        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/drawable-xhdpi/logo_surf_connect.png"
-    },
-    {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.1/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
@@ -198,6 +190,10 @@
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/messenger_bubble_small_blue.png",
         "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.23.0/res/drawable-xhdpi-v4/messenger_bubble_small_blue.png"
+    },
+    {
+        "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/pic.jpg",
+        "source": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/src/main/res/drawable-xhdpi/pic.jpg"
     },
     {
         "merged": "/home/sonu/Practice/WorkSpaces/Android/AccountKitLoginStarterProject/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/icon_profile_empty.png",
