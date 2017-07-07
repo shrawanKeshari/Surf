@@ -10,8 +10,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -116,6 +118,23 @@ public class DisplayActivity extends AppCompatActivity {
                 fieldList.add("tagged_places");
                 fieldList.add("place");
             }
+
+            if(check.equals("TAGGED PHOTOS")){
+                check_permission = "user_photos";
+                display_permission = "Tagged Photos";
+                fieldList.add("photos");
+                fieldList.add("name");
+                fieldList.add("picture");
+                fieldList.add("created_time");
+            }
+
+            if(check.equals("UPLOADED PHOTOS")){
+                check_permission = "user_photos";
+                display_permission = "Uploaded Photos";
+                fieldList.add("photos/uploaded");
+                fieldList.add("picture");
+                fieldList.add("created_time");
+            }
             //check for required permissions
             Log.d("message",fieldList.get(0)+" "+fieldList.get(1));
             Set permissions = AccessToken.getCurrentAccessToken().getPermissions();
@@ -199,6 +218,18 @@ public class DisplayActivity extends AppCompatActivity {
                                     ff.setRelationship(jsonUser.getString("relationship"));
                                 }else if(check_permission.equals("tagged_places")){
                                     ff.setName(jsonUser.getJSONObject("place").getString("name"));
+                                }else if(check_permission.equals("photos")){
+                                    if(jsonUser.isNull("name")){
+                                        ff.setName(" ");
+                                    }else{
+                                        ff.setName(jsonUser.getString("name"));
+                                    }
+                                    ff.setPic(jsonUser.getString("picture"));
+                                    ff.setTime(jsonUser.getString("created_time"));
+                                }else if(check_permission.equals("photos/uploaded")){
+                                    ff.setPic(jsonUser.getString("picture"));
+                                    ff.setTime(jsonUser.getString("created_time"));
+                                    ff.setName(jsonUser.getString("id"));
                                 }
 
                                 fbresult.add(ff);
@@ -219,6 +250,10 @@ public class DisplayActivity extends AppCompatActivity {
                 tv.append("Name: " + ff.getName() + "\n");
                 if(fieldList.get(0).equals("family")){
                     tv.append("Relationship: " + ff.getRelationship() + "\n");
+                }
+                if(fieldList.get(0).equals("photos") || fieldList.get(0).equals("photos/uploaded")){
+                    tv.append("Picture URL: " + ff.getPic() + "\n");
+                    tv.append("Created Time: " + ff.getTime() + "\n");
                 }
                 tv.append("\n");
             }
@@ -250,6 +285,7 @@ public class DisplayActivity extends AppCompatActivity {
                 tv.append("Created At: " + str.getCreated() + "\n");
                 tv.append("Updated At: " + str.getUpdated() + "\n");
                 tv.append("Pushed At: " + str.getPushed() + "\n");
+                tv.append("Url: " + str.getHtmlUrl() + "\n");
                 tv.append("\n");
             }
         }

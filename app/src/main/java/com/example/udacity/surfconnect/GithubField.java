@@ -10,6 +10,7 @@ public class GithubField {
     private String created;
     private String updated;
     private String pushed;
+    private String htmlUrl;
 
     public int getId(){
         return id;
@@ -49,5 +50,13 @@ public class GithubField {
 
     public void setPushed(String pushed){
         this.pushed = pushed;
+    }
+
+    public String getHtmlUrl(){
+        return htmlUrl;
+    }
+
+    public void setHtmlUrl(String htmlUrl){
+        this.htmlUrl = htmlUrl;
     }
 }

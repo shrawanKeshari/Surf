@@ -7,6 +7,8 @@ public class FacebookField {
 
     private String name;
     private String relationship;
+    private String time;
+    private String pic;
 
     public String getName(){
         return name;
@@ -22,5 +24,21 @@ public class FacebookField {
 
     public void setRelationship(String relationship){
         this.relationship = relationship;
+    }
+
+    public String getTime(){
+        return time;
+    }
+
+    public void setTime(String time){
+        this.time = time;
+    }
+
+    public String getPic(){
+        return pic;
+    }
+
+    public void setPic(String pic){
+        this.pic = pic;
     }
 }

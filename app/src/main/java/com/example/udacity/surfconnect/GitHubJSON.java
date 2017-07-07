@@ -26,6 +26,7 @@ public class GitHubJSON {
                 githubField.setCreated(object.getString("created_at"));
                 githubField.setUpdated(object.getString("updated_at"));
                 githubField.setPushed(object.getString("pushed_at"));
+                githubField.setHtmlUrl(object.getString("html_url"));
 
                 result.add(githubField);
             }
